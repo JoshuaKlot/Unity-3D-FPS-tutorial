@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638529600810215956
-    m_Hash: 1719789460
+      ticks: 638584605757978873
+    m_Hash: 1468165001
   m_LockFileStatus:
     m_FilePath: C:/Users/Joshua/Unity 3D FPS tutorial/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638529601604686258
-    m_Hash: 1755400957
+      ticks: 638584605758068892
+    m_Hash: 4163015824
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -115,6 +115,8 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
     - 2.3.1
+    - 2.4.3
+    - 2.4.4
     compatible:
     - 2.0.1
     - 2.0.3
@@ -127,6 +129,8 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
     - 2.3.1
+    - 2.4.3
+    - 2.4.4
     verified: 2.0.7
   dependencies: []
   resolvedDependencies: []
@@ -210,7 +214,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.17
+    version: 2.0.22
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
@@ -317,6 +321,7 @@ m_ResolvedPackages:
     - 3.0.26
     - 3.0.27
     - 3.0.28
+    - 3.0.31
     compatible:
     - 3.0.18
     - 3.0.20
@@ -327,7 +332,8 @@ m_ResolvedPackages:
     - 3.0.26
     - 3.0.27
     - 3.0.28
-    verified: 3.0.28
+    - 3.0.31
+    verified: 3.0.31
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -356,12 +362,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.18
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.17
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
-  version: 2.0.17
+  version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\Joshua\Unity 3D FPS tutorial\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
+  resolvedPath: C:\Users\Joshua\Unity 3D FPS tutorial\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -370,7 +376,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -432,13 +438,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638059987360000000
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 1f126893bfb18ea9661fb15771613e841467073c
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
     version: 2.0.17
@@ -573,6 +579,7 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -594,6 +601,7 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -758,6 +766,7 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.0.7
     - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -767,12 +776,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.0.7
     - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -782,7 +793,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
-    verified: 3.0.8
+    - 3.2.0-pre.10
+    verified: 3.0.9
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -926,6 +938,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     compatible:
     - 1.6.4
     - 1.6.5
@@ -945,6 +958,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
@@ -1017,6 +1031,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -1107,11 +1122,13 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     - 1.9.2
+    - 1.9.4
     compatible:
     - 1.8.0
     - 1.9.0
     - 1.9.1
     - 1.9.2
+    - 1.9.4
     verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
@@ -3165,12 +3182,14 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     compatible:
     - 1.2.2
     - 1.2.3
     - 1.2.4
     - 1.2.5
-    verified: 1.2.5
+    - 1.2.6
+    verified: 1.2.6
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
