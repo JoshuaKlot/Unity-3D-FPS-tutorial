@@ -6,11 +6,14 @@ public class Bullet : MonoBehaviour
 {
     private void OnCollisionEnter(Collision col)
     {
-        if(col.gameObject.CompareTag("Target"))
+        if (col.gameObject.CompareTag("Target"))
         {
             print("Hit " + col.gameObject.name + "!");
-            Destroy(gameObject);
+
 
         }
+        if (col.gameObject.CompareTag("Gun"))
+        { }
+        else { Destroy(gameObject); }
     }
 }
