@@ -71,7 +71,7 @@ public class Weapon : MonoBehaviour
         if(currentShootingMode==ShootingMode.Burst && currentBurst > 1)
         {
             currentBurst--;
-            FireWeapon();
+            Invoke("FireWeapon", shootingDelay);
         }
 
     }
